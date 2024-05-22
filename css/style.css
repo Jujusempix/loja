@@ -1,3 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 
+.header {
+  background: black;
+  color: white;
+  padding: 10px;
+}
+.header .logo {
+  width: 10%;
+}
+.header .header-nav {
+  float: right;
+}
+.header .header-nav ul {
+  list-style: none;
+}
+.header .header-nav ul li {
+  display: inline-block;
+  margin: 10px;
+}
+.header .header-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.header .header-nav ul li a:hover {
+  color: gold;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0%;
+  background: black;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.logocavera {
+  height: 8%;
+  width: 8%;
+}
 
 /*# sourceMappingURL=style.css.map */

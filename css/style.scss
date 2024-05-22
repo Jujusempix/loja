@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: black;
+  color: white;
+  padding: 10px;
+
+
+  .logo {
+    width: 10%;
+  }
+
+  .header-nav {
+    float: right;
+
+    ul {
+      list-style: none;
+
+      li {
+        display: inline-block;
+        margin: 10px;
+
+        a {
+          color: white;
+          text-decoration: none;
+          font-weight: bold;
+          text-transform: uppercase;
+
+          &:hover {
+            color: gold;
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0%;
+  background: black;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.logocavera{
+  height: 8%;
+  width: 8%;
+}
