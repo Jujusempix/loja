@@ -18,8 +18,8 @@
   list-style: none;
 }
 .header .header-nav ul li {
-  display: inline-block;
   margin: 10px;
+  display: inline-block;
 }
 .header .header-nav ul li a {
   color: white;
@@ -28,11 +28,46 @@
   text-transform: uppercase;
 }
 .header .header-nav ul li a:hover {
-  color: gold;
+  color: goldenrod;
+}
+
+input,
+textarea {
+  width: 90%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+button {
+  background-color: cyan;
+  color: black;
+  padding: 10px;
+  border: 0;
+  margin-top: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 0.5s;
+  background-color: goldenrod;
+  color: black;
+}
+
+.centro {
+  text-align: center;
 }
 
 .footer {
-  position: fixed;
+  position: relative;
   bottom: 0%;
   background: black;
   padding-bottom: 2%;
