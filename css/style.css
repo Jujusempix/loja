@@ -3,32 +3,36 @@
   padding: 0;
 }
 
-.header {
-  background: black;
-  color: white;
-  padding: 10px;
-}
-.header .logo {
-  width: 10%;
-}
-.header .header-nav {
+.nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   float: right;
 }
-.header .header-nav ul {
+.nav .nav-list {
   list-style: none;
+  display: flex;
 }
-.header .header-nav ul li {
-  margin: 10px;
-  display: inline-block;
+.nav .nav-list li {
+  margin-left: 16px;
+  margin-right: 16px;
 }
-.header .header-nav ul li a {
-  color: white;
+.nav .nav-list a {
   text-decoration: none;
-  font-weight: bold;
-  text-transform: uppercase;
+  list-style: none;
+  color: white;
+  font-size: x-large;
 }
-.header .header-nav ul li a:hover {
+.nav .nav-list a:hover {
   color: goldenrod;
+  transition: 0.5s;
+}
+
+.logo {
+  margin-left: 2%;
+  width: 20%;
+  height: 20%;
 }
 
 input,
@@ -38,6 +42,7 @@ textarea {
   padding: 10px;
   box-sizing: border-box;
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 label {
@@ -80,6 +85,26 @@ button:hover {
 .logocavera {
   height: 8%;
   width: 8%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex .flex-colunas {
+  width: 10%;
+  margin: 3%;
+  padding: 3%;
+  box-shadow: 0 0 32px #ccc;
+  text-align: center;
+}
+
+.botao {
+  text-decoration: none;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=style.css.map */
