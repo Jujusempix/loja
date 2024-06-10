@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" type="image/png" href="">
-    <title>Piratex Store</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.scss">
+  <!-- <link rel="icon" type="image/png" href="imagem/xdotesouro.png"> -->
+  <link rel="shortcut icon" href="./imagem/x.png">
+
+  <title>Piratex Store</title>
     
 </head>
 <body>
@@ -30,7 +32,7 @@
             if (file_exists($pg)) {
                 include $pg;
             } else {
-                include "paginas/erro.php";
+                include "paginas/Erro.php";
             }
         ?>
     </main>

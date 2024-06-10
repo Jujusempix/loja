@@ -1,6 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&display=swap");
 * {
   margin: 0;
   padding: 0;
+  font-family: "Pirata One", system-ui;
 }
 
 .nav {
@@ -69,6 +71,7 @@ button:hover {
 
 .centro {
   text-align: center;
+  align-items: center;
 }
 
 .footer {
@@ -87,15 +90,31 @@ button:hover {
   width: 8%;
 }
 
-.flex {
+.flex-equipe {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.flex .flex-colunas {
-  width: 10%;
-  margin: 3%;
-  padding: 3%;
+.flex-equipe .flex-colunas-equipe {
+  width: 80%;
+  margin: 20%;
+  box-shadow: 0 0 32px #ccc;
+  text-align: center;
+  border-radius: 5%;
+}
+.flex-equipe .flex-colunas-equipe img {
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.flex-home {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-home .flex-colunas-home {
+  width: 30%;
+  margin: 5%;
   box-shadow: 0 0 32px #ccc;
   text-align: center;
 }
@@ -105,6 +124,27 @@ button:hover {
   background-color: blueviolet;
   color: white;
   border-radius: 5px;
+}
+
+.logo-erro {
+  width: 70%;
+}
+
+.texto-erro {
+  font-size: 50px;
+}
+
+.texto-equipe {
+  font-size: 40px;
+}
+
+.espacinho {
+  padding-top: 20%;
+  padding-bottom: 5%;
+}
+
+.foto-equipe {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

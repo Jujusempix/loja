@@ -10,3 +10,5 @@ v1.5 = navbar e copyright mais estilizados
 v2.0 = Utilização de php
 
 v2.5 = Estruturação da Home page do site
+
+v3.0 = adição da fonte "Pirata One" e Estruturação da pagina de equipe, erro, contato, também foi acrescentado um background tematico

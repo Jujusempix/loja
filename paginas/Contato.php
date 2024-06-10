@@ -1,5 +1,5 @@
 <section class="centro">  
-                    <div class="centro">
+                    <div class="centro espacinho">
                         <h2>Contate-nos aqui:</h2><br>
                         <form name="formContato">
                             <label for="nome">Digite seu nome completo:</label>
