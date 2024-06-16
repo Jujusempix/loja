@@ -5,30 +5,17 @@
   font-family: "Pirata One", system-ui;
 }
 
-.nav {
-  background-color: black;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  float: right;
+h1 {
+  text-align: center;
 }
-.nav .nav-list {
-  list-style: none;
-  display: flex;
+
+body {
+  background-image: url(../imagem/mar.png);
 }
-.nav .nav-list li {
-  margin-left: 16px;
-  margin-right: 16px;
-}
-.nav .nav-list a {
-  text-decoration: none;
-  list-style: none;
-  color: white;
-  font-size: x-large;
-}
-.nav .nav-list a:hover {
-  color: goldenrod;
-  transition: 0.5s;
+
+.navbar {
+  background-color: black !important;
+  font-size: 45px;
 }
 
 .logo {
@@ -96,11 +83,12 @@ button:hover {
   justify-content: center;
 }
 .flex-equipe .flex-colunas-equipe {
-  width: 80%;
-  margin: 20%;
+  width: 30%;
+  margin: 10%;
   box-shadow: 0 0 32px #ccc;
   text-align: center;
   border-radius: 5%;
+  background-color: white;
 }
 .flex-equipe .flex-colunas-equipe img {
   border-top-left-radius: 5%;
@@ -114,16 +102,29 @@ button:hover {
 }
 .flex-home .flex-colunas-home {
   width: 30%;
-  margin: 5%;
+  margin: 10%;
   box-shadow: 0 0 32px #ccc;
   text-align: center;
+  border-radius: 5%;
+  background: white;
+}
+.flex-home .flex-colunas-home img {
+  width: 100%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
 }
 
 .botao {
   text-decoration: none;
-  background-color: blueviolet;
-  color: white;
+  background-color: cyan;
+  color: black;
   border-radius: 5px;
+  font-size: 30px;
+  margin-top: 1000000px;
+}
+.botao:hover {
+  background-color: yellow;
+  transition: 0.5s;
 }
 
 .logo-erro {
@@ -131,11 +132,24 @@ button:hover {
 }
 
 .texto-erro {
-  font-size: 50px;
+  font-size: 30px;
+  color: white;
+}
+
+.titulo-equipe {
+  font-size: 70px;
+  color: white;
 }
 
 .texto-equipe {
   font-size: 40px;
+}
+
+.texto-jogos {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  list-style: none;
 }
 
 .espacinho {
@@ -145,6 +159,49 @@ button:hover {
 
 .foto-equipe {
   width: 100%;
+}
+
+.capa {
+  max-width: 30%;
+  max-height: 30%;
+  align-items: left;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.container-capa {
+  margin-top: 3%;
+  margin-bottom: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: left;
+  display: flex;
+}
+
+.banner {
+  width: 100%;
+  max-height: 10%;
+  height: auto;
+}
+
+@media (max-width: 700px) {
+  .flex-equipe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .flex-equipe .flex-colunas-equipe {
+    width: 80%;
+    margin: 20%;
+    box-shadow: 0 0 32px #ccc;
+    text-align: center;
+    border-radius: 5%;
+    background-color: white;
+  }
+  .flex-equipe .flex-colunas-equipe img {
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

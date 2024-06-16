@@ -1,4 +1,4 @@
-<h1 class="centro texto-erro">EQUIPE</h1>
+<h1 class="centro titulo-equipe">EQUIPE:</h1>
 
 <div class="flex-equipe">
     <div class="flex-colunas-equipe texto-equipe">
@@ -6,7 +6,7 @@
         <p>Dev.Julio</p>
     </div>
     <div class="flex-colunas-equipe texto-equipe">
-        <img class="foto-equipe" src="./imagem/jack-jack.png" alt="Dev.Luiz" title="Dev.Luiz">
+        <img class="foto-equipe" src="./imagem/Luiz.jpg" alt="Dev.Luiz" title="Dev.Luiz">
         <p>Dev.Luiz</p>
     </div>
     <div class="flex-colunas-equipe texto-equipe">
@@ -14,7 +14,7 @@
         <p>Dev.Mari</p>
     </div>
     <div class="flex-colunas-equipe texto-equipe">
-        <img class="foto-equipe" src="./imagem/" alt="Dev.Maycon" title="Dev.Maycon">
+        <img class="foto-equipe" src="./imagem/jack-jack.png" alt="Dev.Maycon" title="Dev.Maycon">
         <p>Dev.Maycon</p>
     </div>
 </div>
