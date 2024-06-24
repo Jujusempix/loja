@@ -1,4 +1,4 @@
-# Piratex store
+# Piratex store/Vapor store
 
 conceito base:
 uma loja virtual com tematica de pirata
@@ -15,4 +15,4 @@ v3.0 = adição da fonte "Pirata One" e Estruturação da pagina de equipe, erro
 
 v3.5 = responsividade na aba "equipe", criação da aba de cada jogo
 
-v4.0 = 
+v4.0 = Houve mudanças significativas de ultima hora, e mudei a ideia de uma loja de pirata para algo muito mais semelhante a steam

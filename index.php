@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="shortcut icon" href="./imagem/x.png">
+  <link rel="shortcut icon" href="./imagem/vaporzin.png">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -15,15 +15,15 @@
 
   <script src="https://kit.fontawesome.com/8b28da4c90.js" crossorigin="anonymous"></script>
 
-  <title>Piratex Store</title>
+  <title>Vapor Store</title>
 
 </head>
 
 <body>
   <header>
     <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.php?pg=home"><img class="logo" src="./imagem/Piratex_logo.png" alt="Piratex"></a>
+      <div class="container-fluid titulo-robo">
+        <a class="navbar-brand" href="index.php?pg=home"><img class="logo" src="./imagem/VaporStorelogo.png" alt="Piratex"></a>
         <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
           data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

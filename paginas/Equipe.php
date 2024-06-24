@@ -1,6 +1,6 @@
-<h1 class="centro titulo-equipe">EQUIPE:</h1>
+<h1 class="centro titulo-equipe titulo-bruto">Equipe:</h1>
 
-<div class="flex-equipe">
+<div class="flex-equipe titulo-robo">
     <div class="flex-colunas-equipe texto-equipe">
         <img class="foto-equipe" src="./imagem/juju.jpg" alt="Dev.ulio" title="Dev.Julio">
         <p>Dev.Julio</p>
@@ -15,6 +15,6 @@
     </div>
     <div class="flex-colunas-equipe texto-equipe">
         <img class="foto-equipe" src="./imagem/jack-jack.png" alt="Dev.Maycon" title="Dev.Maycon">
-        <p>Dev.Maycon</p>
+        <p>Dev.Diego</p>
     </div>
 </div>
